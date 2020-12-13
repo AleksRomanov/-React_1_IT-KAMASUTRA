@@ -27,8 +27,6 @@ const MyPosts = () => {
             {postsElements}
         </div>
     </div>
-
-
 }
 
 export default MyPosts;
