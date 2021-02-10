@@ -10,18 +10,20 @@ import Settings from "./components/Settings/Settings";
 import {BrowserRouter, Route} from 'react-router-dom';
 
 
-const App = () => {
-    return (                                //возвращает JSX разметку
+const App = (props) => {
+
+    return (                                                //возвращает JSX разметку
         <BrowserRouter>
             <div className='app-wrapper'>
                 <Header/>
                 <Navbar/>
                 <div className='app-wrapper-content'>
-                    <Route path='/Profile' component={Profile}/>
-                    <Route path='/Dialogs' component={Dialogs}/>
-                    <Route path='/News' component={News}/>
-                    <Route path='/Music' component={Music}/>
-                    <Route path='/Settings' component={Settings}/>
+                    {/*<Route path='/News' component={News}/>*/}
+                    <Route path='/Profile' render={() => <Profile state={props.state.profilePage}/>}/>
+                    <Route path='/Dialogs' render={() => <Dialogs state={props.state.dialogsPage} />}/>
+                    <Route path='/News' render={() => <News/>}/>
+                    <Route path='/Music' render={() => <Music/>}/>
+                    <Route path='/Settings' render={() => <Settings/>}/>
                 </div>
             </div>
         </BrowserRouter>
@@ -29,4 +31,3 @@ const App = () => {
 }
 
 export default App;
-
