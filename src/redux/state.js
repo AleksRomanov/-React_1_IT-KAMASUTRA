@@ -1,7 +1,7 @@
 let state = {
     profilePage: {
         posts: [
-            {id: 1, message: 'Haaaai!!!', likesCount: 12},
+            {id: 1, message: 'Haaaaaaaaaaai!!!', likesCount: 12},
             {id: 2, message: 'Its my first post!', likesCount: 443},
             {id: 3, message: 'I so HAPPY!!!!', likesCount: 200},
             {id: 4, message: 'Hey, fuck you!!!', likesCount: 10}

@@ -1,8 +1,19 @@
 .item {
     color: red;
+    width: 400px;
+    height: 150px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 5px;
+}
+
+.item:hover {
+    border: 1px solid lawngreen;
 }
 
 .item img {
-    width: 10%;
+    width: 30%;
     border-radius: 50px;
 }

@@ -2,16 +2,20 @@
     grid-area: b;
     background-color: white;
     padding: 20px;
+    border-right: 1px solid rgba(0, 0, 0, .1);
 }
 
 .item {
     height: 50px;
-    /*border-left: 1px solid rgba(0, 0, 0, .2);*/
 }
 
 .item a {
     color: darkslategray;
     text-decoration: none;
+}
+
+.item a:hover {
+    border-bottom: 1px solid red;
 }
 
 .item a.activeLink {
