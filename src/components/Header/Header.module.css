@@ -1,8 +1,12 @@
 .header {
+    box-sizing: border-box;
+    padding: 0 0 0 20px;
     grid-area: a;
-    background-color: mediumspringgreen;
+    background-color: white;
+    margin-top: auto;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
 }
 
 .header img {
-    width: 100px;
+    width: 14%;
 }

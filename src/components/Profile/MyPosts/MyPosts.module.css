@@ -1,11 +1,15 @@
 .posts {
     width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .postsBlock {
     padding: 10px;
+    background-color: white;
+    text-align: center;
 }
 
-.posts {
-    margin-top: 10px;
-}

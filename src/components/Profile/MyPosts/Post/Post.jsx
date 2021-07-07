@@ -5,7 +5,7 @@ const Post = (props) => {
 
     return (
         <div className={classes.item}>
-            <img src="https://w7.pngwing.com/pngs/795/321/png-transparent-wunderlist-task-management-microsoft-action-item-microsoft-orange-microsoft-action-item.png" alt=""/>
+            <img src="https://w7.pngwing.com/pngs/795/321/png-transparent-wunderlist-task-management-microsoft-action-item-microsoft-orange-microsoft-action-item.png"/>
             {props.message}
             <div>
                 <span>like</span> {props.likesCount}
